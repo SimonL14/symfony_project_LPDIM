@@ -1,0 +1,14 @@
+{# templates/weather/weather.html.twig #}
+
+<body>
+    <form action="weather" method="POST">
+      <label for="city">Entrez le nom de la ville :</label><br>
+      {{print_erreur_ville}}
+      <input type="text" id="city" name="city" required><br>
+      <input type="checkbox" name="humidity"/>
+      <label for="humidity">Humidité</label><br>
+      <input type="submit" value="Envoyer">
+      {{print_temp}}
+      <br>
+      {{print_humidity}}
+</body>
