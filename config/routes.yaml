@@ -11,3 +11,7 @@ app_weather:
 app_twitter:
     path: /twitter/twitter
     controller: App\Controller\TwitterController::twitter
+
+app_homepage:
+    path: /twitter/twitter
+    controller: App\Controller\TwitterController::twitter
