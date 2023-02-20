@@ -10,3 +10,5 @@ import './styles/app.css';
 
 // start the Stimulus application
 import './bootstrap';
+
+import logoPath from '../public/images/logo.png';
